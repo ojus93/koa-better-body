@@ -98,7 +98,7 @@ utils.defaultTypes = function defaultTypes (types) {
  * @api private
  */
 utils.isValid = function isValid (method) {
-  return ['GET', 'HEAD', 'DELETE'].indexOf(method.toUpperCase()) === -1
+  return ['GET', 'HEAD'].indexOf(method.toUpperCase()) === -1
 }
 
 /**
